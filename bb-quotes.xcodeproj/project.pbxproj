@@ -18,6 +18,7 @@
 		C5CE36DC2BA16FA000ADDC40 /* samplecharacter.json in Resources */ = {isa = PBXBuildFile; fileRef = C5CE36DB2BA16FA000ADDC40 /* samplecharacter.json */; };
 		C5CE36E02BA1733600ADDC40 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CE36DF2BA1733600ADDC40 /* Quote.swift */; };
 		C5CE36E22BA1736D00ADDC40 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CE36E12BA1736D00ADDC40 /* Character.swift */; };
+		C5CE36E42BA1808D00ADDC40 /* FetechController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CE36E32BA1808D00ADDC40 /* FetechController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		C5CE36DB2BA16FA000ADDC40 /* samplecharacter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = samplecharacter.json; path = ../../../Downloads/BBQuotesResources/samplecharacter.json; sourceTree = "<group>"; };
 		C5CE36DF2BA1733600ADDC40 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 		C5CE36E12BA1736D00ADDC40 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		C5CE36E32BA1808D00ADDC40 /* FetechController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetechController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				C5CE36AC2BA1627200ADDC40 /* bb_quotesApp.swift */,
 				C5CE36AE2BA1627200ADDC40 /* ContentView.swift */,
+				C5CE36E32BA1808D00ADDC40 /* FetechController.swift */,
 				C5CE36DF2BA1733600ADDC40 /* Quote.swift */,
 				C5CE36E12BA1736D00ADDC40 /* Character.swift */,
 				C5CE36DB2BA16FA000ADDC40 /* samplecharacter.json */,
@@ -271,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5CE36E42BA1808D00ADDC40 /* FetechController.swift in Sources */,
 				C5CE36AF2BA1627200ADDC40 /* ContentView.swift in Sources */,
 				C5CE36E02BA1733600ADDC40 /* Quote.swift in Sources */,
 				C5CE36AD2BA1627200ADDC40 /* bb_quotesApp.swift in Sources */,
