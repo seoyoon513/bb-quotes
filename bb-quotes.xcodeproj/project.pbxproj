@@ -15,6 +15,7 @@
 		C5CE36C82BA1627300ADDC40 /* bb_quotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CE36C72BA1627300ADDC40 /* bb_quotesUITests.swift */; };
 		C5CE36CA2BA1627300ADDC40 /* bb_quotesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CE36C92BA1627300ADDC40 /* bb_quotesUITestsLaunchTests.swift */; };
 		C5CE36D82BA164FA00ADDC40 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C5CE36D72BA164FA00ADDC40 /* .gitignore */; };
+		C5CE36DC2BA16FA000ADDC40 /* samplecharacter.json in Resources */ = {isa = PBXBuildFile; fileRef = C5CE36DB2BA16FA000ADDC40 /* samplecharacter.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		C5CE36C72BA1627300ADDC40 /* bb_quotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bb_quotesUITests.swift; sourceTree = "<group>"; };
 		C5CE36C92BA1627300ADDC40 /* bb_quotesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bb_quotesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C5CE36D72BA164FA00ADDC40 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		C5CE36DB2BA16FA000ADDC40 /* samplecharacter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = samplecharacter.json; path = ../../../Downloads/BBQuotesResources/samplecharacter.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				C5CE36AC2BA1627200ADDC40 /* bb_quotesApp.swift */,
 				C5CE36AE2BA1627200ADDC40 /* ContentView.swift */,
+				C5CE36DB2BA16FA000ADDC40 /* samplecharacter.json */,
 				C5CE36B02BA1627300ADDC40 /* Assets.xcassets */,
 				C5CE36B22BA1627300ADDC40 /* Preview Content */,
 			);
@@ -237,6 +240,7 @@
 				C5CE36B42BA1627300ADDC40 /* Preview Assets.xcassets in Resources */,
 				C5CE36D82BA164FA00ADDC40 /* .gitignore in Resources */,
 				C5CE36B12BA1627300ADDC40 /* Assets.xcassets in Resources */,
+				C5CE36DC2BA16FA000ADDC40 /* samplecharacter.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
