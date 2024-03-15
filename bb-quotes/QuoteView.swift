@@ -18,7 +18,9 @@ struct QuoteView: View {
                     .frame(width: geo.size.width * 2.7, height: geo.size.height * 1.2)
                 
                 VStack {
+                    Spacer(minLength: 140) // 최소 길이를 설정
                     Text("\"You either run from thins, or you face them, Mr. White.\"")
+                        .minimumScaleFactor(0.5) // 글자 수가 많아지면 자동으로 글자 크기를 줄인다. 줄어드는 한게치가 0.5
                         .multilineTextAlignment(.center)
                         .foregroundColor(.white)
                         .padding()
@@ -39,6 +41,21 @@ struct QuoteView: View {
                     }
                     .frame(width: geo.size.width/1.1, height: geo.size.height/1.8)
                     .cornerRadius(80)
+                    
+                    Spacer()
+                    
+                    Button() {
+                        
+                    } label: {
+                        Text("Get Random Quote")
+                            .font(.title)
+                            .foregroundColor(.white)
+                            .padding()
+                            .background(Color("BreakingBadGreen"))
+                            .cornerRadius(7)
+                            .shadow(color: Color("BreakingBadYellow"), radius: 2)
+                    }
+                    Spacer(minLength: 180)
                 }
                 .frame(width: geo.size.width)
             }
