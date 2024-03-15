@@ -20,6 +20,7 @@
 		C5CE36E22BA1736D00ADDC40 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CE36E12BA1736D00ADDC40 /* Character.swift */; };
 		C5CE36E42BA1808D00ADDC40 /* FetechController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CE36E32BA1808D00ADDC40 /* FetechController.swift */; };
 		C5CE36E62BA4075000ADDC40 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CE36E52BA4075000ADDC40 /* Constants.swift */; };
+		C5CE36E82BA40D6100ADDC40 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CE36E72BA40D6100ADDC40 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		C5CE36E12BA1736D00ADDC40 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		C5CE36E32BA1808D00ADDC40 /* FetechController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetechController.swift; sourceTree = "<group>"; };
 		C5CE36E52BA4075000ADDC40 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C5CE36E72BA40D6100ADDC40 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				C5CE36AC2BA1627200ADDC40 /* bb_quotesApp.swift */,
 				C5CE36AE2BA1627200ADDC40 /* ContentView.swift */,
+				C5CE36E72BA40D6100ADDC40 /* ViewModel.swift */,
 				C5CE36E32BA1808D00ADDC40 /* FetechController.swift */,
 				C5CE36DF2BA1733600ADDC40 /* Quote.swift */,
 				C5CE36E12BA1736D00ADDC40 /* Character.swift */,
@@ -283,6 +286,7 @@
 				C5CE36AD2BA1627200ADDC40 /* bb_quotesApp.swift in Sources */,
 				C5CE36E22BA1736D00ADDC40 /* Character.swift in Sources */,
 				C5CE36E62BA4075000ADDC40 /* Constants.swift in Sources */,
+				C5CE36E82BA40D6100ADDC40 /* ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
